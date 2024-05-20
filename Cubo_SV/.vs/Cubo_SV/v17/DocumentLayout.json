@@ -1,0 +1,68 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Alexander Segura\\Documents\\Universidad\\dmd\\desafio 2\\Cubo_SV\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AA9552D0-3F21-4437-915F-668B2EFCEC53}|Cubo_SV.dwproj|C:\\Users\\Alexander Segura\\Documents\\Universidad\\dmd\\desafio 2\\Cubo_SV\\2020 SV Region Mobility Report.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{AA9552D0-3F21-4437-915F-668B2EFCEC53}|Cubo_SV.dwproj|solutionrelative:2020 SV Region Mobility Report.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA9552D0-3F21-4437-915F-668B2EFCEC53}|Cubo_SV.dwproj|C:\\Users\\Alexander Segura\\Documents\\Universidad\\dmd\\desafio 2\\Cubo_SV\\2020 SV Region Mobility Report Normalized.dsv||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{AA9552D0-3F21-4437-915F-668B2EFCEC53}|Cubo_SV.dwproj|solutionrelative:2020 SV Region Mobility Report Normalized.dsv||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA9552D0-3F21-4437-915F-668B2EFCEC53}|Cubo_SV.dwproj|C:\\Users\\Alexander Segura\\Documents\\Universidad\\dmd\\desafio 2\\Cubo_SV\\CUBO_EL_SALVADOR.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{AA9552D0-3F21-4437-915F-668B2EFCEC53}|Cubo_SV.dwproj|solutionrelative:CUBO_EL_SALVADOR.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "2020 SV Region Mobility Report Normalized.dsv [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Alexander Segura\\Documents\\Universidad\\dmd\\desafio 2\\Cubo_SV\\2020 SV Region Mobility Report Normalized.dsv",
+              "RelativeDocumentMoniker": "2020 SV Region Mobility Report Normalized.dsv",
+              "ToolTip": "C:\\Users\\Alexander Segura\\Documents\\Universidad\\dmd\\desafio 2\\Cubo_SV\\2020 SV Region Mobility Report Normalized.dsv [Dise\u00F1o]",
+              "RelativeToolTip": "2020 SV Region Mobility Report Normalized.dsv [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-19T00:39:06.841Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "2020 SV Region Mobility Report.dim [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Alexander Segura\\Documents\\Universidad\\dmd\\desafio 2\\Cubo_SV\\2020 SV Region Mobility Report.dim",
+              "RelativeDocumentMoniker": "2020 SV Region Mobility Report.dim",
+              "ToolTip": "C:\\Users\\Alexander Segura\\Documents\\Universidad\\dmd\\desafio 2\\Cubo_SV\\2020 SV Region Mobility Report.dim [Dise\u00F1o]",
+              "RelativeToolTip": "2020 SV Region Mobility Report.dim [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-19T00:39:02.069Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CUBO_EL_SALVADOR.cube [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Alexander Segura\\Documents\\Universidad\\dmd\\desafio 2\\Cubo_SV\\CUBO_EL_SALVADOR.cube",
+              "RelativeDocumentMoniker": "CUBO_EL_SALVADOR.cube",
+              "ToolTip": "C:\\Users\\Alexander Segura\\Documents\\Universidad\\dmd\\desafio 2\\Cubo_SV\\CUBO_EL_SALVADOR.cube [Dise\u00F1o]",
+              "RelativeToolTip": "CUBO_EL_SALVADOR.cube [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-19T00:13:49.627Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

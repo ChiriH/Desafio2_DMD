@@ -1,0 +1,212 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="4973e509-7c96-4707-a7e7-52c145ffa746" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>CUBO_EL_SALVADOR</ID>
+  <Name>CUBO_EL_SALVADOR</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-6476" scrolltop="-6931" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="21246" y="16775" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="2020_SV_Region_Mobility_Report" left="-271" top="-1931" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="8255" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00003f20000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_2020_SV_Region_Mobility_Report" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-6476</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-6931</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>-271</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>-1931</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="8d786bfc-7c8e-46eb-bb22-0a45ee5840b4">
+      <ID>2020 SV Region Mobility Report</ID>
+      <Name>2020 SV Region Mobility Report</Name>
+      <DimensionID>2020 SV Region Mobility Report</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="5a1f60d1-377e-4e5e-af33-ed7825f5acf9">
+          <AttributeID>Sub Region 1</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="fc210254-76f7-4c17-93b5-ba1cc77ccfb4">
+      <ID>2020 SV Region Mobility Report</ID>
+      <Name>2020 SV Region Mobility Report</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="b00e14d3-812f-405b-857b-c8cb1773fb1e">
+          <ID>Retail And Recreation Percent Change From Baseline</ID>
+          <Name>Retail And Recreation Percent Change From Baseline</Name>
+          <Source dwd:design-time-name="7967b367-d97b-4196-b09e-b583bb7baf5c">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="ebacdc60-5c22-4491-bd6e-6bb59311ef13">
+              <TableID>dbo_2020_SV_Region_Mobility_Report</TableID>
+              <ColumnID>retail_and_recreation_percent_change_from_baseline</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="27f771b1-edd3-41d8-afcf-0221e3509d36">
+          <ID>Grocery And Pharmacy Percent Change From Baseline</ID>
+          <Name>Grocery And Pharmacy Percent Change From Baseline</Name>
+          <Source dwd:design-time-name="e57cae1d-ffec-499a-9926-b41aa55e2df2">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="338a8207-a773-4856-9b93-b6cc93956d3d">
+              <TableID>dbo_2020_SV_Region_Mobility_Report</TableID>
+              <ColumnID>grocery_and_pharmacy_percent_change_from_baseline</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="11636b79-424b-4056-ae0a-2b58505dd9a3">
+          <ID>Parks Percent Change From Baseline</ID>
+          <Name>Parks Percent Change From Baseline</Name>
+          <Source dwd:design-time-name="dd42b206-3474-4b25-87a2-c2646879bd3a">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="8e771b0d-4751-400a-894f-74a79a654f2e">
+              <TableID>dbo_2020_SV_Region_Mobility_Report</TableID>
+              <ColumnID>parks_percent_change_from_baseline</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="605b4f65-e443-45ad-bddd-55857630e08f">
+          <ID>Transit Stations Percent Change From Baseline</ID>
+          <Name>Transit Stations Percent Change From Baseline</Name>
+          <Source dwd:design-time-name="810ff175-1ddd-4062-a1e0-6c32d10ec6b1">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="a3688863-1fff-490c-a9e6-582eb535ef6b">
+              <TableID>dbo_2020_SV_Region_Mobility_Report</TableID>
+              <ColumnID>transit_stations_percent_change_from_baseline</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="ef226d25-3fdd-4d7e-b9bf-2f2cb84e8f1b">
+          <ID>Workplaces Percent Change From Baseline</ID>
+          <Name>Workplaces Percent Change From Baseline</Name>
+          <Source dwd:design-time-name="b8282a77-b7a5-4b13-a719-ddfd643eb973">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="ce515a49-101f-4ed1-8694-516fa13755be">
+              <TableID>dbo_2020_SV_Region_Mobility_Report</TableID>
+              <ColumnID>workplaces_percent_change_from_baseline</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="091f896e-2786-4f6e-8e9e-4ff17c8eaf41">
+          <ID>Residential Percent Change From Baseline</ID>
+          <Name>Residential Percent Change From Baseline</Name>
+          <Source dwd:design-time-name="771c167f-de6b-4694-8cee-937c286c9ad0">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="4e93f9bf-d8cd-473d-a853-1277f154cac3">
+              <TableID>dbo_2020_SV_Region_Mobility_Report</TableID>
+              <ColumnID>residential_percent_change_from_baseline</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="182b4f42-c2a7-4a86-abb9-d58ceeaac218">
+          <ID>Recuento 2020 SV Region Mobility Report</ID>
+          <Name>Recuento 2020 SV Region Mobility Report</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="2ac5a906-7019-4e02-9cb1-282b8e9938f9">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="614e88a7-3496-4526-804e-017ed534922c">
+              <TableID>dbo_2020_SV_Region_Mobility_Report</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="f5798530-958d-4d5d-861d-a318821ae9f5">
+          <CubeDimensionID>2020 SV Region Mobility Report</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="eecbc401-8a1a-4b70-8927-644d30c59529">
+              <AttributeID>Sub Region 1</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="5b2623b8-7f02-4690-9336-4a6dbc2087a7">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="30f30162-f52e-4e9e-97b7-18c2f8495c87">
+                    <TableID>dbo_2020_SV_Region_Mobility_Report</TableID>
+                    <ColumnID>sub_region_1</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="2ee82666-f8e1-4dcf-9d03-f2b62798e1e6">
+    <DataSourceViewID>2020 SV Region Mobility Report Normalized</DataSourceViewID>
+  </Source>
+  <Kpis>
+    <Kpi dwd:design-time-name="826242f7-f503-474c-b1c4-17573e25c04d">
+      <ID>KPI</ID>
+      <Name>KPICambioMovilidadParquesEspaciosPúblicos</Name>
+      <AssociatedMeasureGroupID>2020 SV Region Mobility Report</AssociatedMeasureGroupID>
+      <Value>[Measures].[Parks Percent Change From Baseline]</Value>
+      <Goal>[Measures].[Parks Percent Change From Baseline] * 100</Goal>
+      <Trend>[2020 SV Region Mobility Report].[Sub Region 1]</Trend>
+      <TrendGraphic>Standard Arrow</TrendGraphic>
+      <StatusGraphic>Gauge - Ascending</StatusGraphic>
+    </Kpi>
+  </Kpis>
+</Cube>
